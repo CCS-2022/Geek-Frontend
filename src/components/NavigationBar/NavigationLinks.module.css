@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 7rem;
+  font-size: 1.3rem;
+  /* z-index: 100; */
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-nav {
+  color: #09005e;
+}
+
+.list a:hover,
+.list a.active {
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+  color: #484bed;
+}
+
+.signup-btn {
+  background-color: #484bed;
+}
+
+@media (max-width: 57rem) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    gap: 2rem;
+  }
+}

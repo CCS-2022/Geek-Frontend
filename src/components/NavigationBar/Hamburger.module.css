@@ -1,0 +1,50 @@
+.hamburger {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 2rem;
+  z-index: 10;
+}
+
+.hamburger-line {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: aliceblue;
+  margin: 0.2rem 0;
+  border-radius: 0.1rem;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 20rem;
+  background-color: black;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds viewport height */
+}
+
+/* 
+.menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 20rem;
+  background-color: black;
+  right: 0;
+} */
+
+.menu-title {
+  visibility: visible;
+  color: aliceblue;
+  z-index: 100;
+  /* margin-top: 40rem; */
+  margin-bottom: 5rem;
+}
